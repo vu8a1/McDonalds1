@@ -68,6 +68,7 @@ body {
     cursor: pointer;
     margin: 10px;
     font-size: 20px;
+    list-style-type: none;
 }
 
 .container3 {
@@ -264,7 +265,165 @@ body {
     justify-content: space-between;
 }
 
-li {
+a {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+.ul li {
     list-style-type: none;
     cursor: pointer;
+    margin: 8px 0;
 }
+
+.container8 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url('./images/fb_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.facebook:hover {
+    background-position: bottom;
+}
+
+.YouTube {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url('./images/youtube_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.YouTube:hover {
+    background-position: bottom;
+}
+
+.instagram {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url('./images/instagram_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.instagram:hover {
+    background-position: bottom;
+}
+
+.linkedin {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url('./images/linkedin_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.linkedin:hover {
+    background-position: bottom;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+}
+
+.AppStore {
+    display: block;
+    width: 150px;
+    height: 42px;
+    background-image: url('./images/app_store_badge.png');
+}
+
+.GooglePlay {
+    display: block;
+    width: 150px;
+    height: 42px;
+    background-image: url('./images/google_play_badge.png');
+}
+
+.container9 {
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.container10 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image7 {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    color: #006bae;
+}
+
+.container11 {
+    margin-top: 50px;
+}
+
+.menu1 {
+    position: relative;
+}
+
+.menu1:hover .div18 {
+    display: flex;
+}
+
+.div18 {
+    position: absolute;
+    top: 24px;
+    left: -24px;
+    width: 800px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.image8 {
+    width: 70px;
+    height: 70px;
+}
+
+.ul2 {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+}
+
+.p {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
